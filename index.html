@@ -65,12 +65,41 @@
             animation-play-state: paused;
         }
     </style>
+    <style type="text/css">
+        #spinner img {
+            position: absolute;
+            border: 1px solid #ccc;
+            background: rgba(255, 255, 255, 0.8);
+            box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
 
 <body>
-    <div id="stage" style="background: rgba(0,0,0,0.5);">
-        <p id="spinner" style="background: rgba(0,0,0,0.5); text-align: center; color: #fff;">Stop, I'm getting dizzy!
-        </p>
+    <div id="stage" style="padding-left: 180px; height: 160px;">
+        <div id="spinner" style="-webkit-transform-origin: 180px 0 0;">
+            <img style="-webkit-transform: rotateY(0deg) translateX(180px); padding: 0 0 0 160px;"
+                src="images/DSC_5399.jpg" width="200" height="160" alt="">
+            <img style="-webkit-transform: rotateY(-36deg) translateX(180px); padding: 0 0 0 147px;"
+                src="images/DSC_5775.jpg" width="213" height="160" alt="">
+            <img style="-webkit-transform: rotateY(-72deg) translateX(180px); padding: 0 0 0 120px;"
+                src="images/DSC_6233.jpg" width="240" height="160" alt="">
+            <img style="-webkit-transform: rotateY(-108deg) translateX(180px); padding: 0 0 0 147px;"
+                src="images/DSC_6331.jpg" width="213" height="160" alt="">
+            <img style="-webkit-transform: rotateY(-144deg) translateX(180px); padding: 0 0 0 122px;"
+                src="images/DSC_6931.jpg" width="238" height="160" alt="">
+
+            <img style="-webkit-transform: rotateY(-180deg) translateX(180px); padding: 0 0 0 160px;"
+                src="images/DSC_6945.jpg" width="200" height="160" alt="">
+            <img style="-webkit-transform: rotateY(-216deg) translateX(180px); padding: 0 0 0 147px;"
+                src="images/DSC_7292.jpg" width="213" height="160" alt="">
+            <img style="-webkit-transform: rotateY(-252deg) translateX(180px); padding: 0 0 0 120px;"
+                src="images/DSC_7424.jpg" width="240" height="160" alt="">
+            <img style="-webkit-transform: rotateY(-288deg) translateX(180px); padding: 0 0 0 147px;"
+                src="images/DSC_7509.jpg" width="213" height="160" alt="">
+            <img style="-webkit-transform: rotateY(-324deg) translateX(180px); padding: 0 0 0 122px;"
+                src="images/DSC_7589.jpg" width="238" height="160" alt="">
+        </div>
     </div>
 </body>
 
